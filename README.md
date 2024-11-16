@@ -81,11 +81,11 @@ The model has been trained on the **Sentiment140 dataset**, consisting of **1.6 
 
 ---
 ### Demo
-
-<video width="640" height="360" controls>
-    <source src="https://raw.githubusercontent.com/Rasi-Harshitha/Twitter-sentiment-analysis/blob/main/Screen%20Recording%202024-11-16%20230424.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-</video>
+![image](https://github.com/user-attachments/assets/ccc55e49-30f1-4f91-bd55-b914a3fcd9cc)
+![image](https://github.com/user-attachments/assets/be5139a6-502f-4f71-868b-421ca5db4534)
+![image](https://github.com/user-attachments/assets/593c2210-c8e9-4036-878e-c8bf71e04c09)
+![image](https://github.com/user-attachments/assets/e1677d68-727f-4796-8c29-2f74fe308c72)
+![image](https://github.com/user-attachments/assets/f703d1b9-5bbc-4448-9327-40179672d20d)
 
 
 
