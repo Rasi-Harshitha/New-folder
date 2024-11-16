@@ -83,7 +83,7 @@ The model has been trained on the **Sentiment140 dataset**, consisting of **1.6 
 ### Demo
 
 <video width="640" height="360" controls>
-    <source src="" type="video/mp4">
+    <source src="https://github.com/Rasi-Harshitha/Twitter-sentiment-analysis/blob/main/Screen%20Recording%202024-11-16%20230424.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
 
