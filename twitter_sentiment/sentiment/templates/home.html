@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter Sentiment Analysis</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="{% static 'sentiment/styles.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h1>Twitter Sentiment Analysis</h1>
+        <form method="post" action="">
+            {% csrf_token %}
+            <div class="form-group">
+                <textarea name="tweet" class="form-control" rows="3" placeholder="Enter your tweet here..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Analyze</button>
+        </form>
+        {% if sentiment %}
+            <div class="result">
+                <h3>Sentiment: {{ sentiment }}</h3>
+                <div class="emoji">{{ emoji }}</div>
+            </div>
+        {% endif %}
+    </div>
+</body>
+</html>
